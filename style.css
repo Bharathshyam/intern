@@ -1,0 +1,36 @@
+#l
+{
+    list-style: none;
+}
+table, th, td {
+    border: 1px solid black;
+}
+
+#good
+{
+    width: 33.33%;
+    height: 100%;
+    float: right;
+
+}
+#c
+{
+    width: 33.33%;
+    height: 100%;
+    float: left;
+    
+    
+}
+
+#ri
+{
+    width: 33.33%;
+    height: 100%;
+    margin: 0 auto;
+
+   
+}
+#w
+{
+    text-align: center;
+}
