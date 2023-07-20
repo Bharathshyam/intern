@@ -1,0 +1,95 @@
+#t
+{
+ background-color: black;
+ height: 35px;
+ width: 100%;
+}
+
+#head
+{
+    background-color: aqua;
+    padding: 1px;
+    text-align: center;
+}
+
+#content
+{
+    float: right;
+    color:white;   
+}
+
+#content ul li
+{
+display:inline;
+font-size:150%;
+margin:30px;
+background-color:white;
+border-radius:6px;
+padding:8px;
+text-decoration:none;
+color: black;
+}
+#content
+{
+    background-color: black;
+    width: 100%;
+    height: 7%;
+}
+
+.img
+{
+    width: 100%;
+    height: 50%;
+}
+body
+{
+    background-image: url("download.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+    width: 100%;
+}
+#blank
+{
+    color: azure;
+    width: 100%;
+    height: 620px;
+    padding-top: 25px;
+    text-align: right;   
+}
+
+#f
+{
+    color: aliceblue;
+    text-align: center;
+    background-color: rgb(91, 94, 95);
+    padding: 1px;  
+}
+
+h1 , h2 
+{
+padding-right: 60px;
+}
+
+.button
+{
+    background-color: aqua;
+    padding: 15px 32px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+#button{
+    text-align: center;
+}
+.button:hover
+{
+    background-color: blue;
+}
+
+#content ul li:hover
+{
+    background-color: aqua;
+
+}
