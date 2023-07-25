@@ -1,0 +1,56 @@
+.
+{
+    padding: 0;
+    margin: 0;
+}
+#about
+{
+    background:blue;
+    width: 100%;
+    height:100%
+}
+#about h4{
+    font-weight: 5000;
+    font-size:xx-large;
+}
+
+#three
+{
+    background-color: antiquewhite;
+}
+
+#three .card
+{
+padding: 10%;
+box-shadow:15px 20px 20px rgb(87, 79, 79),inset 4px 4px 4px white; 
+            
+}
+
+#three .card:hover
+{
+    background-color: rgb(156, 142, 142);
+    box-shadow:15px 20px 20px rgb(255, 253, 253),inset 4px 4px 4px rgb(37, 34, 34) ;
+}
+
+#pic .car
+{
+    align-items: center;
+}
+
+#con .card
+{
+    border-radius: 20px;
+    color: bisque;
+    box-shadow: 15px 20px 20px rgb(87, 79, 79),inset 4px 4px 4px white; 
+            
+}
+#con .card button
+{
+    align-items: center;
+}
+#con .card:hover
+{
+    box-shadow:15px 20px 20px rgb(255, 253, 253),inset 4px 4px 4px rgb(37, 34, 34) ;
+}
+
+}
