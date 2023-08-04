@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: grey;
+}
+
+header{
+    background-color: blue;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    margin: auto;
+    padding: 3px;
+}
+
+.logo{
+    color: white;
+    text-decoration: none;
+    font-weight:600;
+    font-size:xx-large;
+}
+
+.box{
+   height: 30px;
+   width: 30px;
+   text-align: center;
+   position: relative;
+   color: white;
+   margin-right: 10px;
+}
+.cart-count{
+    position: absolute;
+    background-color:black;
+    color:white;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    top: -4px;
+    line-height: 20px;
+    right: 0;
+    padding: 3px;
+    z-index: 99;
+    
+}
+
+#cart-outline{
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding-top: 10px;
+    
+    
+}
+
+
+#addcart
+{
+    background-color:green;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    align-items: center;
+    text-align: center;
+    
+}
+
+#boxx
+{
+position: relative;
+}
+
+.cart{
+    right: -100%;
+    top: 0;
+    position: fixed;
+    position: relative;
+    z-index: 100;
+    background-color:white;
+
+}
+.cart-active{
+    right: 0;
+    transition: 0.5s;
+    position: relative;
+    z-index: 100;
+    width: 30%;
+
+}
+.cart-box
+{
+    display: flex;
+    gap: 30px;
+}
+.hi{
+    color: aqua;
+    background-color: blue;
+}
+#cancel-btn
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(248, 243, 243);
+    color: black;
+}
+#pri
+{
+    display: flex;
+    gap: 30px;
+}
+#t{
+    display: flex;
+    float: right;
+    gap: 10px;
+    margin-right: 20px;
+
+}
+#total
+{
+    margin: 20px;
+}
