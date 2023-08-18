@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+    text-decoration: none;
+   
+    
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url(../src/components/homepage.jpg.jpeg);
+    background-size: cover;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color:yellow;
+    width: auto;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: black;
+ 
+
+}
+
+.n-h1{
+    margin-left: 50px;
+    padding: 5px;
+}
+.n-menu{
+    display: flex;
+    margin: 5px;
+    font-weight: 800;
+    font-size:larger;
+}
+.n-menu a{
+    padding: 5px;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px;
+    color: aliceblue;
+    font-size: x-large;
+}
+
